@@ -1,4 +1,4 @@
-var status = [
+var statusHistory = 
     {
         "page": {
         "id": "4lzycl8t1x0c",
@@ -4447,4 +4447,14 @@ var status = [
         }
         ]
         }
-]
+
+var statusWindow = document.querySelectorAll("#statusHistory")[0];
+
+statusHistory.incidents.forEach(element => {
+    console.log(element);
+
+    statusWindow.innerHTML += ("<br> <b>" + element.name + "</b> <br> Resolved at: " + element.resolved_at + "<br>" + element.shortlink + "<br>");
+});
+
+
+console.log(statusHistory.incidents[0])
