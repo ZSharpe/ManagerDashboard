@@ -92,6 +92,26 @@
 
     <!-- Optional JavaScript -->
     <script src="metrics.js"></script>
+
+    <script type="text/javascript" src="https://cdn.statuspage.io/se-v2.js"></script>
+<script>
+  var sp = new StatusPage.page({ page : '4lzycl8t1x0c' });
+  sp.summary({
+    success : function(data) {
+      console.log(data.components[0].status);
+    }
+  });
+</script>
+
+    <script type="text/javascript" src="https://cdn.statuspage.io/se-v2.js"></script>
+<script>
+  var sp = new StatusPage.page({ page : '4lzycl8t1x0c' });
+  sp.incidents({
+    success : function(data) {
+      console.log(data.incidents[0].name);
+    }
+  });
+</script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
