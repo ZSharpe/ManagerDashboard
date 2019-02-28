@@ -1,3 +1,12 @@
-.bgGrey {
-    background-color: #E8ECEF;
+html{
+    font-family: Roboto, Helvetica, Arial;
+    background-color: white;
+}
+
+.nav-link,.navbar,.nav-item,.navbar-nav{
+    color:#FF7055;
+}
+
+.jumbotron{
+    background-color: white;
 }
