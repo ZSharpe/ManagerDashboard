@@ -16,9 +16,13 @@ a:hover{
 }
 
 .navbar{
-    background-color:rgba(255, 111, 85);
+    background-image: linear-gradient(to bottom, rgba(255,111,85,1), rgba(255,111,85,.4));
 }
 
 .jumbotron{
     background-color: white;
+}
+
+.row{
+    padding:40px;
 }
